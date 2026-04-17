@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EVENTS - Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .upload-box {
+            border: 2px dashed #ccc;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #fafafa;
+        }
+
+        button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #34495e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. WEBSITE NAME -->
+<header>
+    <h1>EVENTS</h1>
+    <p>Professional Event Management Services</p>
+    <p>Contact: 7396719556</p>
+</header>
+
+<!-- 2. CUSTOMER INFORMATION -->
+<section>
+    <h2>Customer Information</h2>
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number">
+
+        <label>Event Type</label>
+        <select>
+            <option>Wedding</option>
+            <option>Birthday</option>
+            <option>Corporate Event</option>
+            <option>Party</option>
+            <option>Other</option>
+        </select>
+
+        <label>Event Date</label>
+        <input type="date">
+
+        <label>Additional Requirements</label>
+        <textarea rows="4" placeholder="Write your requirements..."></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- 3. IMAGE UPLOAD -->
+<section>
+    <h2>Upload Event Images</h2>
+    <div class="upload-box">
+        <p>Upload reference images for your event</p>
+        <input type="file" multiple>
+    </div>
+</section>
+
+<!-- 4. FEEDBACK -->
+<section>
+    <h2>Feedback</h2>
+    <form>
+        <label>Your Feedback</label>
+        <textarea rows="5" placeholder="Share your experience..."></textarea>
+
+        <label>Rating</label>
+        <select>
+            <option>⭐</option>
+            <option>⭐⭐</option>
+            <option>⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐⭐</option>
+        </select>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 EVENTS | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
